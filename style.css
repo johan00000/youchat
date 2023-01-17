@@ -1,0 +1,123 @@
+
+#enviar{
+    display: none;
+}
+#recivir{
+    display: none;
+}
+
+.divForm{
+    border-radius: 20px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    background-color: #6155a680;
+    justify-content: flex-end;
+    box-shadow: #A7D129;
+
+
+}
+.form{
+    margin-top: 10%;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: none;
+}
+.mensajesDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.atributos{
+
+    font-size: 18px;
+    color: #A7D129;
+    padding: 5px;
+}
+html{
+    background-image: url(./fondoMsg.jpg);
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.boton{
+
+    width: 50px;
+    font-size: 18px;
+    color: #616F39;
+    background-color: #3E432E;
+    border-radius: 5px;
+    border: 1px tan solid;
+}
+.tabla{
+    width: 50px;
+}
+#mensaje{
+border-radius: 5px;
+border: none;
+width: 200px;
+height:25px ;
+color: #a2d515;
+font-size: 18px;
+background-color: rgb(207, 228, 245);
+margin: 10px;
+
+
+
+}
+.BotonesEnviar{
+    display: flex;
+}
+#mensaje:focus {
+    border: solid 3px #A7D129;
+    background-color: rgb(75, 101, 122);
+}
+
+.recibe{
+    color: #1c1d1b;
+    background-color:  rgba(165, 142, 142, 0.87);
+
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+    
+}
+.envia{
+    margin: 10px;
+    margin-left: 110px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    background-color:
+    #a2d515;
+    word-wrap: break-word;
+
+}
+#mensajes{
+
+    display: flex;
+    flex-direction: column-reverse;
+    word-wrap: break-word;
+    width: 400px;
+    height: 500px;
+    
+
+    overflow-y: scroll;
+    height: auto;
+    overflow-y: scroll;
+    scroll-snap-align: none;
+scroll-snap-align: start end; /* when two values set first is block, second inline */
+scroll-snap-align: center;
+
+}

@@ -1,0 +1,105 @@
+body{
+    background-image: url('./login.jpg');
+
+}
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.form{
+    margin-top: 10%;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: none;
+}
+.titulo{
+    color: #047956;
+    margin-top: 0px;
+    margin-bottom: -23px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sesioniniciar{
+    color: #205295;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#logoImagen{
+    width: 100x;
+    height: 100px;
+}
+.divFormulario{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+
+    background-color: #d7d6fc6e;
+}
+#usario{
+    color: #2C74B3;
+}
+.textbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.input{
+
+    font-size: 20px;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+#contraseña{
+    position: relative;
+    left: -22;
+    top: 0;
+}
+#iniciarNombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iniciarContraseña{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divTexto{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38695a;
+}
+.botones{
+    margin:20px;
+    color: #323941;
+    background-color: #218164d0;
+    border-radius: 10px;
+    border: none;
+    height:35px ;
+}
+.botones:hover{
+    color: #000000;
+    background-color: rgba(68, 139, 221, 0.89);
+}
+
